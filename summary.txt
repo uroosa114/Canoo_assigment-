@@ -1,0 +1,13 @@
+The script automates the process of gathering information about Canoo and its industry through web searches, seamlessly integrating data extraction from search results to provide valuable insights.
+Search Queries: The code defines a list of search queries related to the company "Canoo". These queries are meant to retrieve specific information about Canoo and its industry.
+
+Search Using DuckDuckGo API: The code uses the DuckDuckGo API through the DDGS class to perform web searches based on the predefined queries. It retrieves search results, including titles and URLs, for each query and stores them in a DataFrame named query_results_df.
+
+Exporting Search Results: The search results DataFrame (query_results_df) is exported to a CSV file named 'query_results.csv'.
+
+Asynchronous Web Scraping: The code asynchronously scrapes text content from the URLs obtained in the search results. It extracts text from each URL, truncates it to 2000 words, and saves the title, URL, and truncated text into separate lists.
+
+Exporting Scraped Data: After scraping all URLs, the collected data is used to create a new DataFrame named result_df, which includes titles, URLs, and text content. This DataFrame is exported to a CSV file named 'scraped_data.csv'.
+
+Concurrency with asyncio: The asyncio library is utilized for concurrency, allowing multiple URL scraping tasks to be executed concurrently, thereby improving efficiency.
+

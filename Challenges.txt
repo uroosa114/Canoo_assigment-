@@ -1,0 +1,16 @@
+
+Here are few Challenges which I faced completing the assigment.
+
+Understanding the Assignment Requirements: Initially, understanding what the assignment was asking and its specific objectives was challenging for me. Deciphering the tasks, such as conducting web searches, scraping data, and exporting results, required careful analysis and clarification.
+
+Familiarity with Libraries: Working with libraries such as DuckDuckGo API, asyncio, aiohttp, and BeautifulSoup posed a learning curve for me. Understanding their functionalities, syntax, and best practices took time and effort.
+
+Determining the Best Approach: Deciding on the most suitable approach to tackle the assignment tasks efficiently and effectively was challenging for me. I needed to weigh various options, consider trade-offs, and choose the approach that aligned with the assignment requirements and my skill set.
+
+Handling Asynchronous Operations: Implementing asynchronous web scraping using asyncio and aiohttp was challenging. Managing asynchronous tasks, handling exceptions, and ensuring proper synchronization required careful attention and experimentation.
+
+Data Processing and Export: Processing the scraped data and exporting it to CSV files in the desired format was challenging. Ensuring data integrity, handling large volumes of data, and managing CSV file operations required careful consideration and testing.
+
+Error Handling and Debugging: Identifying and troubleshooting errors, exceptions, and unexpected behavior in the code was challenging. Debugging asynchronous code and handling potential issues with web requests and responses required patience and perseverance.
+
+Time Management: Balancing the time required for research, learning new concepts and libraries, coding, debugging, and testing was challenging for me. Managing time effectively to meet deadlines and deliver high-quality results was a significant challenge.
